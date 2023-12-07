@@ -66,7 +66,7 @@ def create_window_resultado_geral(perda_total, ambiente_producao, tolerancia_per
             print(perda_total)
             perda_total = perda_total / (jsl.lista_pratica[0])
             print(perda_total)
-            melhor_resultado = mc.melhor_resultado(perda_total)
+            melhor_resultado = mc.melhor_resultado(perda_total,tolerancia_perda)
 
             novo_texto = 'Melhores respostas encontrada:\n'
 

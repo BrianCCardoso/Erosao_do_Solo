@@ -24,7 +24,7 @@ pratica = {
     'Plantio em faixas, em nível': 0.25
 }
 
-def melhor_resultado(perda_solo):
+def melhor_resultado(perda_solo,tolerancia):
     perdas_mininimas = {}
 
 
@@ -36,7 +36,7 @@ def melhor_resultado(perda_solo):
             for prat in pratica.keys():
                 y = x
                 y = y*pratica[prat]
-                if y < perda_solo:
+                if y < tolerancia:
                     perdas_mininimas[cult] = f'{prep} + {prat}'
 
 

@@ -14,11 +14,11 @@ Grupo_3 = ('Ambiente de produção: Grupo 3\nClasses: Argissolos, PV, PVA, PA\nD
            'ondulado com gradiente textural,'
            'drenagem mais lenta no horizonte B; relevo mais ondulados\nCaracterísticas em relação ao manejo : altos '
            'riscos de erosão; melhor capacidade de armazenamento de água; canais e terraços sugerido em desnível; '
-           'após cjhuvas podem permanecer encharcados')
+           'após chuvas podem permanecer encharcados')
 
 Grupo_4 = ('Ambiente de produção: Grupo 4\nClasses: CX e RL\nDescrição: rasos e pouco profundos, '
            'alta pedregosidade\nCaracteristicas em relacao ao'
-           'manejo: baixa eficiencia em mecanizacao, alto risco erosão')
+           'manejo: baixa eficiencia em mecanização, alto risco erosão')
 
 Grupo_5 = ('Ambiente de produção: Grupo 5\nClasses: GX, RY\nDescrição: relevo plano, geralmente ao lado de rios ou '
            'cabeceiras de drenagem,'
