@@ -25,7 +25,5 @@ while True:
         window['solo'].update(disabled=False)
     if event == 'solo':
         jsl.create_window()
-    if event == 'Praticas':
-        pass
 
 window.close()

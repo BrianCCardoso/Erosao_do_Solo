@@ -21,8 +21,8 @@ def create_window():
     layout = [
         [sg.Text('Classe do solo'), sg.InputText(key='classe', text_color='white')],
         [sg.Text('Teor de argila'), sg.InputText(key='argila', text_color='white')],
-        [sg.Text('Classe de silte'), sg.InputText(key='silte', text_color='white')],
-        [sg.Text('Classe de areia'), sg.InputText(key='areia', text_color='white')],
+        [sg.Text('Teor de silte'), sg.InputText(key='silte', text_color='white')],
+        [sg.Text('Teor de areia'), sg.InputText(key='areia', text_color='white')],
         [sg.Text('Declividade'), sg.InputText(key='declividade', text_color='white')],
         [sg.Text('Cultivo: ')],
         [sg.Checkbox(nome, key=nome) for nome in mc.cultivo.keys()],
